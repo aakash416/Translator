@@ -19,3 +19,7 @@ Translation: Google Translate API translates the input text into the selected di
 Display Translation: The translated text is received from the API response and dynamically displayed on the web page below the input area.
 
 User Interaction: Users can continue to enter new text and click the "Translate" button to see translations in different dialects.
+
+# Project Live links
+
+https://aakash416.github.io/Translator/
