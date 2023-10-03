@@ -12,8 +12,14 @@ function translateText() {
             displayTranslation(translatedText);
         })
         .catch(error => {
-            console.error("Error translating text:", error);
-            displayTranslation("Error occurred while translating. Please try again.");
+            if (inputText) {
+                console.error("Error translating text:", error);
+                displayTranslation("Error occurred while translating. Please try again.");
+            }
+            else {
+                displayTranslation("Please Enter Your text !");
+
+            }
         });
 }
 
